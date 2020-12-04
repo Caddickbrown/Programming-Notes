@@ -1,5 +1,23 @@
+//Introduction
+/*Was built as an extension or as a newer version of C
+C++ is an Object Oriented Programming System (OOPS) and supports Classes and Objects
+It is used for:
+  Computer applications
+  Games
+  Software
+  Graphics
+  ATM Machines*/
+
+//1st Program
+/*Be aware of case letters as C++ gets confused if case letter change
+cout - Means "Console Output" '''<<''' means "Output the object"
+Text after << is printed
+Semicolon is used as a "Full stop" and ends every command*/
+
 cout<<"Hello World"; //This Line prints Hello World - double slash indicates a single line comment
 
+//Comments
+//Single Line - Use "//"
 /* This is the start of a multi line comment
 This is the end of the same multi line comment.*/
 
@@ -7,9 +25,9 @@ This is the end of the same multi line comment.*/
 Along side this, we also what to tell our code what type of value we are containing (words/numbers etc.)
 The steps are Identify - Define type of variable, Label - Assign name to variable, Value - Put a value into the variable*/
 
-//Identify (Keyword): string - Variable contains words
-//Label: container1 - This is the name we are giving the variable
-//Value: container1="Hello"; - Hello has been assigned as the value
+/*Identify (Keyword): string - Variable contains words
+Label: container1 - This is the name we are giving the variable
+Value: container1="Hello"; - Hello has been assigned as the value*/
 
 //This is how it looks when put together - Notice the semicolon at the end of each command
 string container1; //Identify and Label
@@ -18,9 +36,9 @@ container1="Hello"; //Value
 //Storing Words
 string dansname = "Daniel Caddick-Brown"; //Identify, Label, and Value in one line
 
-//Storing Boolean Values
-//These are values stores for decision making - such as "True" or "False"
-//To store these values you use the keyword bool
+/*Storing Boolean Values
+These are values stores for decision making - such as "True" or "False"
+To store these values you use the keyword bool*/
 bool isCorrect = true;
 //Value stored in a variable is either True or False without the double quotes
 bool = true;
@@ -40,9 +58,9 @@ int c; //This sets up Variable c but DOES NOT assign anything to it
 c=a+b; //This assigns the value of c as a+b
 cout<<c<<'__'; // This prints variable c
 c=a-b; //This reassigns the value of c as a-b
-cout<<c<<'__'; // This prints variable c
+cout<<c<<'__'; // This prints new variable c
 c=a*b; //This reassigns the value of c as a*b
-cout<<c<<'__'; // This prints variable c
+cout<<c<<'__'; // This prints new variable c
 c=a/b; //This reassigns the value of c as a/b
-cout<<c<<'__'; // This prints variable c
+cout<<c<<'__'; // This prints new variable c
 //This whole block of code would print "20 10 75 3"
