@@ -100,8 +100,10 @@ if(a>b){
 }else{
     cout<<"b is greater than a";
 }
-/*When running this program, the output would be "a is greater than b"
-Changing these variables constantly wouldn't be worth your time - the solution is that you would set up a program that you input the values
+//When running this program, the output would be "a is greater than b"
+
+//Giving input to a program
+/*Changing these variables constantly wouldn't be worth your time - the solution is that you would set up a program that you input the values
 and it will spit out the solution. To do this you can use the cin command.
 Instead of the values being hard-coded in, they are not inputs for whoever inputs the numbers*/
 int a; //This sets up that there is a Variable a
