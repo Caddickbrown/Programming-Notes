@@ -54,7 +54,7 @@ cout<<rollNo;
 //Maths
 int a=15; //This sets up Variable a and assigns a number to it
 int b=5; //This sets up Variable b and assigns a number to it
-int c; //This sets up Variable c but DOES NOT assign anything to it
+int c; //This sets up that there is a Variable c but DOES NOT assign anything to it
 c=a+b; //This assigns the value of c as a+b
 cout<<c<<'__'; // This prints variable c
 c=a-b; //This reassigns the value of c as a-b
@@ -64,6 +64,32 @@ cout<<c<<'__'; // This prints new variable c
 c=a/b; //This reassigns the value of c as a/b
 cout<<c<<'__'; // This prints new variable c
 //This whole block of code would print "20 10 75 3"
+
+//Decision Making
+/*Most decisions tend to lead to a "Yes" or a "No" or multiple versions of yes or no. These can be visualised in flow charts.
+These decisions can be seen as an "if..else statement" which you'll have seen above.
+It can be written as below.*/
+/*if(condition){
+  code to be executed when Boolean is True
+}else{
+  code to be executed when Boolean is False
+}*/
+/*To understand the expression you can divide it into 3 sections - if you've worked with IF statements in Excel, then this will be familiar to you:
+1. Condition
+2. If Block
+3. Else Block*/
+if(12<43){  //if is the keyword and the condition is written within rounded brackets, then open your curly brackets
+  cout<<"The condition is true"; //This code will be executed if the condition met is true, you can then close your curly brackets - Don't forget your semi-colon!
+}else{
+  cout<<"The condition is false"; //For the Else Block, start with the else keyword, open your curly brackets, input the code for if the condition of false and close off the curly brackets.
+}
+//A variation on the final code may look something like.
+if(7<=9){
+  cout<<"The condition is true";
+}else{
+  cout<<"The condition is false";
+}
+//The output for this final code would be "The condition is true"
 
 //Which number is greater?
 //Here we will store intergers as variables a and b and following some maths identify which is larger
@@ -75,11 +101,11 @@ if(a>b){
     cout<<"b is greater than a";
 }
 /*When running this program, the output would be "a is greater than b"
-Changing these variables sonstantly wouldn't be worth your time - the solution is that you would set up a program that you input the values
+Changing these variables constantly wouldn't be worth your time - the solution is that you would set up a program that you input the values
 and it will spit out the solution. To do this you can use the cin command.
 Instead of the values being hard-coded in, they are not inputs for whoever inputs the numbers*/
-int a;
-int b;
+int a; //This sets up that there is a Variable a
+int b; //Same again with Variable b
 cout<<"Enter the value of a"<< endl;
 cin>>a;
 cout<<"Enter the value of b"<< endl;
@@ -89,15 +115,4 @@ if(a>b){
 }else{
     cout<<"b is greater than a";
 }
-
-//Decision Making
-/*Most decisions tend to lead to a "Yes" or a "No" or multiple versions of yes or no. These can be visualised in flow charts.
-These decisions can be seen as an "if..else statement" which you'll have seen above.
-It can be written as below.*/
-/*if(condition){
-  code to be executed
-}else{
-  code to be executed
-}*/
-/*Inside the if block (between {}) the code will be performed if the condition is True
-Inside the else block, the code will be performed if the condition is False*/
+//The output for this final code would depend on the values inputted"
