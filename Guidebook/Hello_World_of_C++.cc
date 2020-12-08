@@ -92,7 +92,7 @@ if(7<=9){
 //The output for this final code would be "The condition is true"
 
 //Which number is greater?
-//Here we will store intergers as variables a and b and following some maths identify which is larger
+//Here we will store intergers as variables a and b and then identify which is larger using ifelse
 int a = 5;
 int b = 3;
 if(a>b){
