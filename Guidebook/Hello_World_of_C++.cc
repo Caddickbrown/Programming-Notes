@@ -64,3 +64,40 @@ cout<<c<<'__'; // This prints new variable c
 c=a/b; //This reassigns the value of c as a/b
 cout<<c<<'__'; // This prints new variable c
 //This whole block of code would print "20 10 75 3"
+
+//Which number is greater?
+//Here we will store intergers as variables a and b and following some maths identify which is larger
+int a = 5;
+int b = 3;
+if(a>b){
+    cout<<"a is greater than b";
+}else{
+    cout<<"b is greater than a";
+}
+/*When running this program, the output would be "a is greater than b"
+Changing these variables sonstantly wouldn't be worth your time - the solution is that you would set up a program that you input the values
+and it will spit out the solution. To do this you can use the cin command.
+Instead of the values being hard-coded in, they are not inputs for whoever inputs the numbers*/
+int a;
+int b;
+cout<<"Enter the value of a"<< endl;
+cin>>a;
+cout<<"Enter the value of b"<< endl;
+cin>>a;
+if(a>b){
+    cout<<"a is greater than b";
+}else{
+    cout<<"b is greater than a";
+}
+
+//Decision Making
+/*Most decisions tend to lead to a "Yes" or a "No" or multiple versions of yes or no. These can be visualised in flow charts.
+These decisions can be seen as an "if..else statement" which you'll have seen above.
+It can be written as below.*/
+/*if(condition){
+  code to be executed
+}else{
+  code to be executed
+}*/
+/*Inside the if block (between {}) the code will be performed if the condition is True
+Inside the else block, the code will be performed if the condition is False*/
