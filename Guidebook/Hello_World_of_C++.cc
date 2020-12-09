@@ -192,4 +192,33 @@ int i=1;do{
   cout<<"I Love C++"<<endl;
   i=i+1
 }while(i<1);
-//Our condition is alread false - but it will be printed at least once as the code follows sequentially. Think of it as more of a "Do this, and keep doing it again until..."
+//You might notice that our condition is already false - but it will be printed at least once as the code follows sequentially. Think of it as more of a "Do this, and keep doing it again until..."
+
+//Arrays
+/*Imagine a Sock Draw and you'll be able to notice a few things
+The Draw is a container which is holding all of the socks
+As it is a Sock Draw - only Socks are kept/stored in it, nothing else
+Each Sock is in a unique position within the draw, and we could number them 1 to 5
+Each sock can then be picked out, dependant on it's numerical position - so if I wanted pair of socks number 4, I'd pick up the Socks in the 4th position
+In coding - this is called an "Array" and you can store similar kinds of values within an Array
+All an Array is is a "Container" which helps you store similar kinds of values (or values of the same datatype).
+These values are known as Elements
+You can access each element by using it's numerical position within the array (aka. it's index)
+Indexes within an Array always starts with 0 - so the Array size would be 5 (The number of elements within the Array), but the index values would be 0-4*/
+//type arrayName[arraySize]={array};
+/*To understand this let's break it down into sections
+type - is the is the type of value stored within the array (int, stirng, etc.)
+arrayName - The Name of your Array
+arraySize - The Size of your array/how many values can be stored within it
+array - The values within your array*/
+int my_rollNo[5]={1,2,3,4,5};
+
+//Array Initialisation
+// This is where you assign values to the Elements an Array - the code below stores numbers 5-9 within the array "myArray"
+myArray[0]=5;
+myArray[1]=6;
+myArray[2]=7;
+myArray[3]=8;
+myArray[4]=9;
+//The numbers within the square brackets are the indexes of the
+int myArray[5]={5,6,7,8,9}; //This is a shortened form of the above, where the Array Declaration and the Array Initialisation are combined
