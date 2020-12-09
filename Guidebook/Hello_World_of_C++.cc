@@ -146,7 +146,7 @@ if(a>b){
 Each loop is written differently*/
 
 //for loops
-//These are used when you know in advance how many times you want to run a loop and repeat the steps a set number of times
+//These are used when you know in advance how many times you want to run a loop and repeat the steps a specific number of times
 /* for(init;cond;incr){
   code to be executed
 }*/
@@ -163,6 +163,7 @@ for(i=1;i<11,i=i++){ //"i++" in the incr section, will increment i by 1 each tim
 }
 
 //while Loops
+//Don't know how many times we want to do a task
 /* while(cond){
   code to be executed
   incr;
@@ -191,4 +192,4 @@ int i=1;do{
   cout<<"I Love C++"<<endl;
   i=i+1
 }while(i<1);
-//Our condition is alread false - but it will be printed at least once as the code follows sequentially
+//Our condition is alread false - but it will be printed at least once as the code follows sequentially. Think of it as more of a "Do this, and keep doing it again until..."
