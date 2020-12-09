@@ -108,7 +108,7 @@ and it will spit out the solution. To do this you can use the cin command.
 Instead of the values being hard-coded in, they are not inputs for whoever inputs the numbers*/
 int a; //This sets up that there is a Variable a
 int b; //Same again with Variable b
-cout<<"Enter the value of a"<< endl;
+cout<<"Enter the value of a"<< endl; //"endl" here is for formatting and ends the line - ie. the next lines will print on the next line down
 cin>>a;
 cout<<"Enter the value of b"<< endl;
 cin>>a;
@@ -118,3 +118,26 @@ if(a>b){
     cout<<"b is greater than a";
 }
 //The output for this final code would depend on the values inputted"
+
+//Repeating a Task (Loop statements)
+/*In C++ there are three types of loop statements
+1. for loops - These are used when you know in advance how many times you want to run a loop and repeat the steps
+2. while loops - These are used when you want to keep
+3. do..while loops
+Each loop is written differently*/
+
+//for loops
+/* for(init;cond;incr){
+  code to be executed
+}*/
+/*To understand this let's break it down into sections
+for - is the keyword to start the command
+init - as in. "Initial Value" This is the starting value for a variable, for example "i=10"
+cond -as in. "Condition"  This is the condition that if not met, the cope will keep running, for example "i<20"
+incr -as in. "Increment"  Here you increment the variable until the condition is satisfied, for example "i=i+1"
+code to be exectuted - This is the task you want repeating until the loop is "closed" when the condition is met
+init, cond, and incr need to be separated with a semicolon*/
+//Printing "I Love CPP" 10 times could be done with the following code
+for(i=1;i<11,i=i++){ //"i++" in the incr section, will increment i by 1 each time
+  cout<<"I Love CPP"<<endl;
+}
