@@ -65,6 +65,9 @@ c=a/b; //This reassigns the value of c as a/b
 cout<<c<<'__'; // This prints new variable c
 //This whole block of code would print "20 10 75 3"
 
+//Blocks
+/*Blocks are used to group together areas of code within a function - they tend to be within "{}"*/
+
 //Decision Making
 /*Most decisions tend to lead to a "Yes" or a "No" or multiple versions of yes or no. These can be visualised in flow charts.
 These decisions can be seen as an "if..else statement" which you'll have seen above.
@@ -140,4 +143,20 @@ init, cond, and incr need to be separated with a semicolon*/
 //Printing "I Love CPP" 10 times could be done with the following code
 for(i=1;i<11,i=i++){ //"i++" in the incr section, will increment i by 1 each time
   cout<<"I Love CPP"<<endl;
+}
+
+//while Loops
+/* while(cond){
+  code to be executed
+  incr;
+}*/
+//Here is an example of printing "I Love CPP"using a while loops
+#include<iostream>
+using namespace std;
+int main(){
+  int s=1; // This gives varable "s" a value of 1
+  while (s<11){ //while keyword starts the command, and the condition of s<11 means that the loop will keep repeating until s is no longer less than 11 (until it reaches 10)
+    cout<<"I Love CPP"<<endl; //this is the task you want repeated - and it is written inside the block
+    s++; // The value of s is incremented by 1 until the condition is satisfied
+  }
 }
