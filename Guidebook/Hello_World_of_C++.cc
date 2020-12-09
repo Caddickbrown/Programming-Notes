@@ -8,6 +8,22 @@ It is used for:
   Graphics
   ATM Machines*/
 
+//Basic Symbols/Characters
+//If you're this far - you likely know what all of these are, but it's worthwhile going over them to ensure clarity
+/*
+() - Rounded Brackets
+{} - Curly Brackets
+[] - Square Brackets
+< - Less than
+; - Semicolon
+"" - Quotation Marks
++ - Plus
+- - Minus/Dash
+* - Asteriks
+/ - Forward Slash
+= - Equals
+*/
+
 //1st Program
 /*Be aware of case letters as C++ gets confused if case letter change
 cout - Means "Console Output" '''<<''' means "Output the object"
@@ -66,7 +82,7 @@ cout<<c<<'__'; // This prints new variable c
 //This whole block of code would print "20 10 75 3"
 
 //Blocks
-/*Blocks are used to group together areas of code within a function - they tend to be within "{}"*/
+/*Blocks are used to group together areas of code within a function - they tend to be within curly brackets or "{}"*/
 
 //Decision Making
 /*Most decisions tend to lead to a "Yes" or a "No" or multiple versions of yes or no. These can be visualised in flow charts.
@@ -124,12 +140,13 @@ if(a>b){
 
 //Repeating a Task (Loop statements)
 /*In C++ there are three types of loop statements
-1. for loops - These are used when you know in advance how many times you want to run a loop and repeat the steps
-2. while loops - These are used when you want to keep
+1. for loops - These are used when you know in advance how many times you want to run a loop and repeat the steps a set number of times
+2. while loops - These are used when you want to keep your code looping until a condition is met
 3. do..while loops
 Each loop is written differently*/
 
 //for loops
+//These are used when you know in advance how many times you want to run a loop and repeat the steps a set number of times
 /* for(init;cond;incr){
   code to be executed
 }*/
