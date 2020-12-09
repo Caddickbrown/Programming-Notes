@@ -220,5 +220,5 @@ myArray[1]=6;
 myArray[2]=7;
 myArray[3]=8;
 myArray[4]=9;
-//The numbers within the square brackets are the indexes of the
+//The numbers within the square brackets are the indexes of the array where the value of that Element is after the = sign
 int myArray[5]={5,6,7,8,9}; //This is a shortened form of the above, where the Array Declaration and the Array Initialisation are combined
