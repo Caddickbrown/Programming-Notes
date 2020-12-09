@@ -157,9 +157,9 @@ cond -as in. "Condition"  This is the condition that if not met, the cope will k
 incr -as in. "Increment"  Here you increment the variable until the condition is satisfied, for example "i=i+1"
 code to be exectuted - This is the task you want repeating until the loop is "closed" when the condition is met
 init, cond, and incr need to be separated with a semicolon*/
-//Printing "I Love CPP" 10 times could be done with the following code
+//Printing "I Love C++" 10 times could be done with the following code
 for(i=1;i<11,i=i++){ //"i++" in the incr section, will increment i by 1 each time
-  cout<<"I Love CPP"<<endl;
+  cout<<"I Love C++"<<endl;
 }
 
 //while Loops
@@ -167,13 +167,28 @@ for(i=1;i<11,i=i++){ //"i++" in the incr section, will increment i by 1 each tim
   code to be executed
   incr;
 }*/
-//Here is an example of printing "I Love CPP"using a while loops
+//Printing "I Love C++" 10 times could be done with the following code
 #include<iostream>
 using namespace std;
 int main(){
   int s=1; // This gives varable "s" a value of 1
   while (s<11){ //while keyword starts the command, and the condition of s<11 means that the loop will keep repeating until s is no longer less than 11 (until it reaches 10)
-    cout<<"I Love CPP"<<endl; //this is the task you want repeated - and it is written inside the block
+    cout<<"I Love C++"<<endl; //this is the task you want repeated - and it is written inside the block
     s++; // The value of s is incremented by 1 until the condition is satisfied
   }
 }
+
+//do while Loops
+/*do while loops are for when you need to repeat tasks, but don't know when you'll need to stop - but  you definitely need to run the code at least once
+For example - Start to read a book - but you don't know how many pages there are. You continue reading page after page and once you find the end page you stop*/
+/*init; //First the variable is initialised
+do{ //do keyword is written
+  code to be exectuted // Task to be repeated is set inside block
+  incr; //Increment is set
+}while(cond);*/ //While keyword with rounded brackets and semicolon
+//Printing "I Love C++" could be done with the following code
+int i=1;do{
+  cout<<"I Love C++"<<endl;
+  i=i+1
+}while(i<1);
+//Our condition is alread false - but it will be printed at least once as the code follows sequentially
