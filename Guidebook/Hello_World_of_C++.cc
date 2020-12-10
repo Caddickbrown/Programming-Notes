@@ -15,6 +15,7 @@ It is used for:
 {} - Curly Brackets
 [] - Square Brackets
 < - Less than
+: - Colon
 ; - Semicolon
 "" - Quotation Marks
 + - Plus
@@ -23,6 +24,12 @@ It is used for:
 / - Forward Slash
 = - Equals
 */
+
+//Considerations
+/*When starting to write code, you first need to use the following code*/
+#include <iostream> //The code will not compile without this line. In order to read or write to the standard input/output streams you need to include it.
+using namespace std; //You don't technically need this line. Without it you will need to "qualify" the namespace of each command when you type it for example "std::cout" or "std::endl". By using this line, you tell the compiler that symbol names defined within the std namespace are to be brought into your program's scope, so you can omit the namespace qualifier from now on.
+//There can be multiple namespaces and those namespaces can use the same "Names" for variables, but with different values behind them.
 
 //1st Program
 /*Be aware of case letters as C++ gets confused if case letter change
@@ -273,7 +280,7 @@ int main(){
   myFunction();
   myFunction();
   myFunction();
-  return 0;
+  return 0; // This signals an exit from "int main()" command
 }
 /*This would print the below:
 I am Awesome

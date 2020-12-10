@@ -5,3 +5,4 @@
 //Explain parameters within functions better
 //Expand on "Functions"
 //Standardise formatting
+//Explain "Considerations" in more detail
