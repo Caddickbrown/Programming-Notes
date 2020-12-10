@@ -2,3 +2,6 @@
 
 //Explain While loops in more detail
 //Improve the analogies throughout the guide
+//Explain parameters within functions better
+//Expand on "Functions"
+//Standardise formatting

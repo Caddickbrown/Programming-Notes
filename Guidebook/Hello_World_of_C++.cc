@@ -240,3 +240,45 @@ Element's Value at the index 4 is: 5
 
 The code will loop through the indexes of the array and access the Elements through myArray[i]
 */
+
+//Functions
+/*A function is a group of statements that when put together - do a tasksEvery C++ program has at least one function which is called main()
+Generally Functions look something like this:
+FunctionOne{
+  Statement 1;
+  Statement 2;
+  Statement 3;
+}
+When you run FunctionOne it will run statements 1, 2, and 3 one after another.
+Functions come into use when you have to run a lot of statements multiple times. For instance, running 50 statements 10 times would be 500 statements.
+Or you can write those 50 statements into a function and run that function 10 times and you only ave around 60 statements instead of 500.
+This could also be paired with loops to cut down the lines even futher*/
+/*The final code for a function has 4 parts and looks like this:
+return_type function_name(parameter list){
+function_body
+}
+*/
+/*To understand this let's break it down into sections
+return_type - a function may return a value after it runs. It could be a string or integer etc. if it doesn't return a value then it's defined as "void"
+function_name - The name you want to call the function (FunctionOne earlier)
+parameter - this is here you pass a value to the function (But is not always required)
+function_body - This holds the statements within the function
+*/
+void myFunction(){
+  cout<<"I am Awesome\n"; // "\n" will add a new line to your output
+}
+int main(){
+  myFunction();
+  myFunction();
+  myFunction();
+  myFunction();
+  myFunction();
+  return 0;
+}
+/*This would print the below:
+I am Awesome
+I am Awesome
+I am Awesome
+I am Awesome
+I am Awesome
+*/
