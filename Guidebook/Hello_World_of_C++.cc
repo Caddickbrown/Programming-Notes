@@ -222,3 +222,21 @@ myArray[3]=8;
 myArray[4]=9;
 //The numbers within the square brackets are the indexes of the array where the value of that Element is after the = sign
 int myArray[5]={5,6,7,8,9}; //This is a shortened form of the above, where the Array Declaration and the Array Initialisation are combined
+
+//Accessing elements
+/*To Access elements you can use a for loop to access elements by looping through it's index
+For example*/
+int myArray[5]={1,2,3,4,5};
+for(int i=0;i<5;i++){
+  cout<<"Element's Value at the index "<<i<<" is: "<<myArray[i]<<endl; //If you've used concatenate in Excel - you may have noticed you're able to string things together in a similar fashion
+}
+/*
+The output for this would be:
+Element's Value at the index 0 is: 1
+Element's Value at the index 1 is: 2
+Element's Value at the index 2 is: 3
+Element's Value at the index 3 is: 4
+Element's Value at the index 4 is: 5
+
+The code will loop through the indexes of the array and access the Elements through myArray[i]
+*/
