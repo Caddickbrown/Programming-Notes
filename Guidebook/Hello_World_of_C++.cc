@@ -289,3 +289,43 @@ I am Awesome
 I am Awesome
 I am Awesome
 */
+
+//Strings
+/*A string is the word computers use for "Text"
+A string "Class" defines a number of functionalities that allow us to do different tasks on strings*/
+//Example
+string str1 = "Hello"; //This assigns the word "Hello" to a string varible
+cout<<str1; //This prints the string that is held within the variable
+
+//Using strings
+//If we had two strings called s1 and s2 you could copy the value for s2 into s1 with the following
+strcopy(s1,s2)
+//You can concatenate the two with
+strcat(s1,s2)
+//Length
+strlen(s1) //returns the length of s1
+//Compare strings and return a value
+strcmp(s1,s2)
+//Point to first occurance of character ch in string s1
+strchr(s1,ch)
+//Point to first occurance of string s2 in string s1
+strstr(s1,s2)
+//Example
+string str1 = "Hello";
+string str2 = "World";
+string str3;
+int len;
+//copy str1 into str3
+str3=strcpy(str3,str1);
+//join str1 and str2
+str3=strcat(str1,str2);
+cout<<"str1+str2:"<<str3<<endl;
+//Total length of str3 after concatenation
+len=strln(str3);
+cout<<"Strlen(str3):"<<len<<endl;
+//Output
+/*
+str3 : Hello
+str1 + str2 : HelloWorld
+strlen(str1) : 10
+*/
