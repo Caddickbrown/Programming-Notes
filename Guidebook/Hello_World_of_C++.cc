@@ -259,7 +259,7 @@ FunctionOne{
 When you run FunctionOne it will run statements 1, 2, and 3 one after another.
 Functions come into use when you have to run a lot of statements multiple times. For instance, running 50 statements 10 times would be 500 statements.
 Or you can write those 50 statements into a function and run that function 10 times and you only ave around 60 statements instead of 500.
-This could also be paired with loops to cut down the lines even futher*/
+This could also be paired with loops to cut down the lines even further*/
 /*The final code for a function has 4 parts and looks like this:
 return_type function_name(parameter list){
 function_body
@@ -271,10 +271,10 @@ function_name - The name you want to call the function (FunctionOne earlier)
 parameter - this is here you pass a value to the function (But is not always required)
 function_body - This holds the statements within the function
 */
-void myFunction(){
+void myFunction(){ //This sets up your function but doesn't run it
   cout<<"I am Awesome\n"; // "\n" will add a new line to your output
 }
-int main(){
+int main(){ //You'll need this to call up your functions to run within your program
   myFunction();
   myFunction();
   myFunction();
