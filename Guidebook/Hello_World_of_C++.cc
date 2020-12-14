@@ -86,7 +86,9 @@ c=a*b; //This reassigns the value of c as a*b
 cout<<c<<'__'; // This prints new variable c
 c=a/b; //This reassigns the value of c as a/b
 cout<<c<<'__'; // This prints new variable c
-//This whole block of code would print "20 10 75 3"
+/*Output
+20 10 75 3
+*/
 
 //Blocks
 /*Blocks are used to group together areas of code within a function - they tend to be within curly brackets or "{}"*/
@@ -115,7 +117,9 @@ if(7<=9){
 }else{
   cout<<"The condition is false";
 }
-//The output for this final code would be "The condition is true"
+/*Output
+The condition is true
+*/
 
 //Which number is greater?
 //Here we will store intergers as variables a and b and then identify which is larger using ifelse
@@ -126,7 +130,9 @@ if(a>b){
 }else{
     cout<<"b is greater than a";
 }
-//When running this program, the output would be "a is greater than b"
+/*Output
+a is greater than b
+*/
 
 //Giving input to a program
 /*Changing these variables constantly wouldn't be worth your time - the solution is that you would set up a program that you input the values
@@ -143,7 +149,7 @@ if(a>b){
 }else{
     cout<<"b is greater than a";
 }
-//The output for this final code would depend on the values inputted"
+//The output for this final code would depend on the values inputted
 
 //Repeating a Task (Loop statements)
 /*In C++ there are three types of loop statements
@@ -237,16 +243,14 @@ int myArray[5]={1,2,3,4,5};
 for(int i=0;i<5;i++){
   cout<<"Element's Value at the index "<<i<<" is: "<<myArray[i]<<endl; //If you've used concatenate in Excel - you may have noticed you're able to string things together in a similar fashion
 }
-/*
-The output for this would be:
+/*Output
 Element's Value at the index 0 is: 1
 Element's Value at the index 1 is: 2
 Element's Value at the index 2 is: 3
 Element's Value at the index 3 is: 4
 Element's Value at the index 4 is: 5
-
-The code will loop through the indexes of the array and access the Elements through myArray[i]
 */
+// The code will loop through the indexes of the array and access the Elements through myArray[i]
 
 //Functions
 /*A function is a group of statements that when put together - do a tasksEvery C++ program has at least one function which is called main()
@@ -282,7 +286,7 @@ int main(){ //You'll need this to call up your functions to run within your prog
   myFunction();
   return 0; // This signals an exit from "int main()" command
 }
-/*This would print the below:
+/*Output
 I am Awesome
 I am Awesome
 I am Awesome
@@ -297,35 +301,25 @@ A string "Class" defines a number of functionalities that allow us to do differe
 string str1 = "Hello"; //This assigns the word "Hello" to a string varible
 cout<<str1; //This prints the string that is held within the variable
 
-//Using strings
-//If we had two strings called s1 and s2 you could copy the value for s2 into s1 with the following
-strcopy(s1,s2)
-//You can concatenate the two with
-strcat(s1,s2)
-//Length
+//Using strings - Different Keywords
+strcopy(s1,s2) //If we had two strings called s1 and s2 you could copy the value for s2 into s1 with the following
+strcat(s1,s2) //You can concatenate the two with
 strlen(s1) //returns the length of s1
-//Compare strings and return a value
-strcmp(s1,s2)
-//Point to first occurance of character ch in string s1
-strchr(s1,ch)
-//Point to first occurance of string s2 in string s1
-strstr(s1,s2)
+strcmp(s1,s2) //Compare strings and return a value
+strchr(s1,ch) //Point to first occurance of character ch in string s1
+strstr(s1,s2) //Point to first occurance of string s2 in string s1
 //Example
 string str1 = "Hello";
-string str2 = "World";
+string str2 = " World";
 string str3;
 int len;
-//copy str1 into str3
-str3=strcpy(str3,str1);
-//join str1 and str2
-str3=strcat(str1,str2);
+str3=strcpy(str3,str1); //copy str1 into str3
+str3=strcat(str1,str2); //join str1 and str2
 cout<<"str1+str2:"<<str3<<endl;
-//Total length of str3 after concatenation
-len=strln(str3);
+len=strln(str3); //Total length of str3 after concatenation
 cout<<"Strlen(str3):"<<len<<endl;
-//Output
-/*
+/*Output
 str3 : Hello
-str1 + str2 : HelloWorld
+str1 + str2 : Hello World
 strlen(str1) : 10
 */
