@@ -323,3 +323,16 @@ str3 : Hello
 str1 + str2 : Hello World
 strlen(str1) : 10
 */
+
+//Pointers
+/*Pointers remember locations/addresses of variables. In essence, a Pointer is just another variable, but one that "points" to other variables
+The delcaration is the same as any other variable
+datatype *variable_name;
+An Asterisk is used in the declatation of pointers.
+An asterisk reads as "The value at" for example:
+*a reads as "the value at a"
+An ampersand reads as "The address of" - for example:
+&a reads as "The address of a"
+Thus:*/
+*a=&p;
+//Tells us that the value at a is the address of p. a is a pointer to the address of p.
