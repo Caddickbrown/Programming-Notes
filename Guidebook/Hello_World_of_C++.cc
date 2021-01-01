@@ -41,7 +41,7 @@ cout<<"Hello World"; //This Line prints Hello World - double slash indicates a s
 
 //Comments
 //Single Line - Use "//"
-/* This is the start of a multi line comment
+/*Multi-Line - Use "/*" to start. This is the start of a multi line comment
 This is the end of the same multi line comment.*/
 
 /*Storing a value - To do this you use variables. These variables have unique names so that we can call it whenever we want.
