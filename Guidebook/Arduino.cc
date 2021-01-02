@@ -116,3 +116,25 @@ void loop() {
   analogWrite(gLEDpin,gVal);
   analogWrite(bLEDpin,bVal);
 }
+
+//Project 05: Mood Cue
+//This Project moves a servo to point to different options
+#include <Servo.h> //This imports the Servo Library from Arduino Software. Note: There are is no semicolon here
+Servo myServo; //You need to create a "Names Instance" of the servo library in a variable. This is called an object
+int const potPin = A0;
+int potVal;
+int angle;
+void setup() {
+  myServo.attach(9);
+  Serial.begin(9600);
+}
+void loop() {
+  potVal = analogRead(potPin);
+  Serial.print("potVal: ");
+  Serial.print(potVal);
+  angle = map(potVal, 0, 1023, 0, 179); //The map function scales numbers for you. in this case it will change the values 0-1023 to values between 0-179. potVal is the number to scale, 0 is the minimum input, 1023 is the max input, 0 is the min output, 179 is the max output.
+  Serial.print(", angle: ");
+  Serial.print(angle);
+  myServo.write(angle);
+  delay(15);
+}
