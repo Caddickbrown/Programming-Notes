@@ -32,7 +32,6 @@ void loop() {
 //This project basically lights up LEDs dependent on temperature.
 const int sensorPin = A0; //Set the variable for the sensor pin as A0. A0 is an Analog Pin - which is used when the input can vary on a scale - not just a yes or a no.
 const float baselineTemp = 20.0; //This sets the "Baseline Temperature at 20.0
-
 void setup() {
   Serial.begin(9600); //Open a Serial Port - this opens a connection with the computer so you can see the values from the analog input on the computer
   for (int pinNumber = 2; pinNumber<5; pinNumber++){
@@ -70,4 +69,50 @@ void loop() {
     digitalWrite(4, HIGH);
   }
   delay(1); //This is just to allow the Analog to Digital Converter time to read the value
+}
+
+//Project 4: Colour Mixing Lamp
+//This project makes a tri-colour LED change colour dependant on the light around it
+const int gLEDpin = 9; //Set up constants for LED Pins
+const int bLEDpin = 10;
+const int rLEDpin = 11;
+const int rSensorpin = A0; //Set up constants for Sensor Pins
+const int gSensorpin = A1;
+const int bSensorpin = A2;
+int rVal = 0; //Set up Variables for Values
+int gVal = 0;
+int bVal = 0;
+int rSensVal = 0; //Set up Variables for Sensor Values
+int gSensVal = 0;
+int bSensVal = 0;
+void setup() {
+  Serial.begin(9600);
+  pinMode(gLEDpin, OUTPUT);
+  pinMode(rLEDpin, OUTPUT);
+  pinMode(bLEDpin, OUTPUT);
+}
+void loop() {
+  rSensVal = analogRead(rSensorpin);
+  delay(5); //Give the ADC a moment to do it's work
+  gSensVal = analogRead(gSensorpin);
+  delay(5);
+  bSensVal = analogRead(bSensorpin);
+  Serial.print("Raw Sensor Values \t red: "); //"\t" is the equivalent of pressing TAB
+  Serial.print(rSensVal);
+  Serial.print("\t green: ");
+  Serial.print(gSensVal);
+  Serial.print("\t blue: ");
+  Serial.print(bSensVal);
+  rVal = rSensVal/4; //The Sensor reads values between 0 and 1023, to get vaues between 0 ans 255 (which the LED reads, as colours are between 0 ans 256) you need to divide by 4
+  gVal = gSensVal/4;
+  bVal = bSensVal/4;
+  Serial.print(" // Mapped Sensor Values \t red: ");
+  Serial.print(rVal);
+  Serial.print("\t green: ");
+  Serial.print(gVal);
+  Serial.print("\t blue: ");
+  Serial.println(bVal); //Don't forget to Print on a new line for readability
+  analogWrite(rLEDpin,rVal); //This writes the rVal to the rLEDpin - sending that colour to the LED
+  analogWrite(gLEDpin,gVal);
+  analogWrite(bLEDpin,bVal);
 }
