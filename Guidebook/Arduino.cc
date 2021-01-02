@@ -1,3 +1,4 @@
+//Project 2: Spaceship Interface
 //The following would flash lights in series when pressed - the green LED would stay on otherwise
 int switchState = 0; //This sets the variable of "switchState" as 0
 void setup() {

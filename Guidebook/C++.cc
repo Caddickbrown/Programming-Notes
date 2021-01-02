@@ -1,5 +1,5 @@
 //Introduction
-/*Was built as an extension or as a newer version of C
+/*C++ was built as an extension or as a newer version of C
 C++ is an Object Oriented Programming System (OOPS) and supports Classes and Objects
 It is used for:
   Computer applications
