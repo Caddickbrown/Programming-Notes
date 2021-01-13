@@ -14,3 +14,18 @@ void main(){ //main() is a predefined method in Dart - and acts as an entry poin
 //Single Line - Use "//"
 /*Multi-Line - Use "/*" to start. This is the start of a multi line comment
 This is the end of the same multi line comment.*/
+
+//Variables
+var name = "Smith"; //Here the Variable "name" has "Smith" stored
+
+//Data Types
+//Dart Supports the following types of variable
+  //Numbers - an integer or a "Double" (a fractional value - with decimal points)
+  int age = 25;
+  double piggybank = 15.60;
+  //Strings -
+  String cheese = "Brie";
+  //Booleans - true/false
+  bool isHappy = true;
+  //Lists -
+  //Maps -
