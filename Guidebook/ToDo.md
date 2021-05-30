@@ -3,7 +3,7 @@ Just a basic To Do List in Markdown to ensure I don't miss anything - to be upda
 This is a To Do list for all different Programming Languages and each Language will have their own section below.
 
 ## General
-- [ ] Come up with a general template that can be applied to   all guides
+- [ ] Come up with a general template that can be applied to   all guides (could be difficult due to different syntax?)
 
 ## C++
 - [ ] Explain While loops in more detail
@@ -16,6 +16,9 @@ This is a To Do list for all different Programming Languages and each Language w
 
 ## Dart
 - [ ] Run through course
+
+## Markdown
+- [ ] Write out guide on markdown syntax
 
 ## Python
 - [ ] Start course
