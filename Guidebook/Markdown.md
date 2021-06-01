@@ -9,11 +9,11 @@ If you're this far - you likely know what all of these are,  but it's worthwhile
  : - Colon
  ; - Semicolon
  "" - Quotation Marks
- + - Plus
- - - Minus/Dash
- * - Asteriks
- / - Forward Slash
- = - Equals
- # - Hash
+ \+ - Plus
+ \- - Minus/Dash
+ \* - Asteriks
+ \/ - Forward Slash
+ \= - Equals
+ \# - Hash
 
 ## Headings
