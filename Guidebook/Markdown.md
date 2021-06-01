@@ -2,7 +2,7 @@ Markdown, although not a programming language as such, has a lot of similarities
 
 ## Basic Symbols/Characters
 If you're this far - you likely know what all of these are,  but it's worthwhile going over them to ensure clarity
-  () - Rounded Brackets
+  () - Rounded Brackets  
   {} - Curly Brackets
   [] - Square Brackets
   < - Less than
