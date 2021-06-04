@@ -2,18 +2,23 @@ Markdown, although not a programming language as such, has a lot of similarities
 
 ## Basic Symbols/Characters
 If you're this far - you likely know what all of these are,  but it's worthwhile going over them to ensure clarity  
- () - Rounded Brackets  
- {} - Curly Brackets  
- [] - Square Brackets  
- < - Less than  
- : - Colon  
- ; - Semicolon  
- "" - Quotation Marks  
- \+ - Plus  
- \- - Minus/Dash  
- \* - Asteriks  
- \/ - Forward Slash  
- \= - Equals  
- \# - Hash  
+| Character | Comment |
+| :---: | :---: |
+| $ | Dollar |
+| +- | Plus, Minus |
+| () | Parentheses |
+| {} | Curly braces |
+| <> | Less than, greater than |
+| = | Equal |
+| : | Colon |
+| ^ | Caret |
+| ' | Apostrophe |
+| / | Forward Slash |
+| ! | Exclamation point |
+| & | Ampersand |
+| ~ | Tilde |
+|   | Space Character |
+| # | Hash |
+
 
 ## Headings
