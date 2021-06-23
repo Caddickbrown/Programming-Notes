@@ -58,6 +58,26 @@ A*funny*dog. rather than A_funny_dog.
 - [ ] Strike Through
 
 ## Tables
+Tables can be shown by starting with the titles of your columns. "|" is used to designate the "Side" of your column. For example:
+
+|Column 1|Column 2|Column 3|
+
+This then needs to be followed by a line of ---- to highlight that this is the start of a table.
+|Column 1|Column 2|Column 3|
+|--------|--------|--------|
+
+Once this is done you can start lining up your data to the relevant column, using "|" between them to switch column.
+
+| Item | Ingredient | Qty |
+| ---- | ---------- | --- |
+| 1 | Banana | 4 |
+| 2 | Apple | 6 |
+| 3 | Oranges | 8 |
+| 4 | Cheese | 4 |
+
+These columns don't have to line up - but if it helps you to visualise it then you can.
+
+To continue writing leave a gap at the end of the table as if starting a new paragraph.
 
 ### Justified
 ":" are used at the sides of the bars at the top of the column you are formatting. A ":" on the left side of the bar will justify the column to the left. A ":" on the right side of the bar will justify the column to the right. A ":" on both sides will justify it to the center.
@@ -98,3 +118,8 @@ Task lists can be made by using the syntax "- [ ]". It needs a blank space insid
 
 ## Footnotes
 - [ ] Need to Check if this has capability in base Markdown
+
+## Images
+
+## Combining Items
+Where Markdown really shines, is that you can combine formatting types. So you can Italisise a Heading, or have a list in a table.
