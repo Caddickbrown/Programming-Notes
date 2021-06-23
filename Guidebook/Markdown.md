@@ -23,7 +23,7 @@ If you're this far - you likely know what all of these are,  but it's worthwhile
 
 ## Headings
 Headings are used as "Titles" for sections - as you run down into subsections you increase the "Heading level" by increasing the amount of hashes in front of the text. A single hash will give you heading 1. This would tend to be the title of the piece you are working on. A second hash would tend to be the title of the section of the piece. This can drill down further and further.
-The text for the title needs a space after the hashes - this is for come compatibility reasons as some applications won't read it as a heading without the space.  
+The text for the title needs a space after the hashes - this is for come compatibility reasons as some applications won't read it as a heading without the space.
  # This is a heading 1
  ## This is a heading 2
  ### This is a heading 3
@@ -41,19 +41,23 @@ There is no need to indent - as this is seen as almost a "Follow up" to the text
 ## Emphasis
 General emphasis can be applied as in the following - spaces have been added to show what has been added. To use the formatting, just take out the spaces.
 *Italics* or _Italics_ - * Italics * or _ Italics _ - Can be used by adding a single "*" or "_" either side of the selected word.
+
 **Bold** or __Bold__ - ** Bold ** or __ Bold __ - Can be used by adding a double "*" or "_" either side of the selected word.
+
 They can be combined as well. You can switch the different characters around it will still work the same
 _**Bold** Italics_ - _ ** Bold ** Italics _
+
 Markdown applications don’t agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold or italicize the middle of a word for emphasis. For instance.
 A*funny*dog. rather than A_funny_dog.
 
-Underline
-Highlighting
-Strike Through
+- [ ] Underline
+- [ ] Highlighting
+- [ ] Strike Through
 
 ## Tables
 
 ### Justified
+":" are used at the sides of the bars at the top of the column you are formatting. A ":" on the left side of the bar will justify the column to the left. A ":" on the right side of the bar will justify the column to the right. A ":" on both sides will justify it to the center.
 
 ## Lists
 - First item
