@@ -1,5 +1,4 @@
-//Dart
-//Intro
+//Introduction
 /*Dart is used for App development on FLutter
 Flutter is a universal app framework for iOS, Android, and Web Apps*/
 
@@ -10,7 +9,6 @@ void main(){ //main() is a predefined method in Dart - and acts as an entry poin
 //This will output "Hello World!" You'll notice the syntax is similar to C, C++, and Java
 
 //Comments
-//These comments are exactly the same as C++
 //Single Line - Use "//"
 /*Multi-Line - Use "/*" to start. This is the start of a multi line comment
 This is the end of the same multi line comment.*/
@@ -20,12 +18,14 @@ var name = "Smith"; //Here the Variable "name" has "Smith" stored
 
 //Data Types
 //Dart Supports the following types of variable
-  //Numbers - an integer or a "Double" (a fractional value - with decimal points)
+  //Numbers - an integer (A non-fractional value - a whole number) or a "Double" (a fractional value - with decimal points)
   int age = 25;
   double piggybank = 15.60;
-  //Strings -
+  //Strings - A string of Characters
   String cheese = "Brie";
   //Booleans - true/false
   bool isHappy = true;
   //Lists -
   //Maps -
+
+//Type checking ensures that a variable holds only data specific to a data type, for instance you cannot keep a String inside an integer variable.
