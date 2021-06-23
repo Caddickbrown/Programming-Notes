@@ -23,7 +23,7 @@ If you're this far - you likely know what all of these are,  but it's worthwhile
 
 ## Headings
 Headings are used as "Titles" for sections - as you run down into subsections you increase the "Heading level" by increasing the amount of hashes in front of the text. A single hash will give you heading 1. This would tend to be the title of the piece you are working on. A second hash would tend to be the title of the section of the piece. This can drill down further and further.
-The text for the title needs a space after the hashes - this is for come compatibility reasons as some applications won't read it as a heading without the space.
+The text for the title needs a space after the hashes - this is for come compatibility reasons as some applications won't read it as a heading without the space.  
  # This is a heading 1
  ## This is a heading 2
  ### This is a heading 3
