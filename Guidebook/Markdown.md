@@ -1,4 +1,5 @@
 Markdown, although not a programming language as such, has a lot of similarities that are applicable to programmatic thinking, This is a guide to talk through the ins and outs of Markdown and how it can be applied to general note taking.
+
 It's a basic form of text storage, with some additional formatting that can be used to help explain things.
 
 ## Basic Symbols/Characters
@@ -23,7 +24,9 @@ If you're this far - you likely know what all of these are,  but it's worthwhile
 
 ## Headings
 Headings are used as "Titles" for sections - as you run down into subsections you increase the "Heading level" by increasing the amount of hashes in front of the text. A single hash will give you heading 1. This would tend to be the title of the piece you are working on. A second hash would tend to be the title of the section of the piece. This can drill down further and further.
+
 The text for the title needs a space after the hashes - this is for come compatibility reasons as some applications won't read it as a heading without the space.
+
  # This is a heading 1
  ## This is a heading 2
  ### This is a heading 3
@@ -34,7 +37,7 @@ The text for the title needs a space after the hashes - this is for come compati
 ## Paragraphs
 Just type out your words as you'd like them displayed.
 
-New paragraphs can be added by adding a blank line in your text - as above.
+New paragraphs can be added by adding a blank line in your text - as above. If no space is left - then the text will continue as a single line.
 
 There is no need to indent - as this is seen as almost a "Follow up" to the text you have written above the indentation.
 
