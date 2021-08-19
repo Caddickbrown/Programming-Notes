@@ -1,5 +1,5 @@
-// Introduction
-/*Kotlin is used to make Android Apps*/
+//Introduction
+/*React is an open source  front end Javascript library for building User Interfacted and the elements within them.*/
 
 //Comments
 //Single Line - Use "//"
