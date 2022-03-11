@@ -1,4 +1,4 @@
-Markdown, although not a programming language as such, has a lot of similarities that are applicable to programmatic thinking, This is a guide to talk through the ins and outs of Markdown and how it can be applied to general note taking.
+Markdown, although not exactly a programming language as such, has a lot of similarities that are applicable to programmatic thinking. This is a guide to talk through the ins and outs of Markdown and how it can be applied to general note taking.
 
 It's a basic form of text storage, with some additional formatting that can be used to help explain things.
 
@@ -51,7 +51,7 @@ They can be combined as well. You can switch the different characters around it 
 _**Bold** Italics_ - _ ** Bold ** Italics _
 
 Markdown applications don’t agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold or italicize the middle of a word for emphasis. For instance.
-A*funny*dog. rather than A_funny_dog.
+A*funny*dog rather than A_funny_dog
 
 - [ ] Underline
 - [ ] Highlighting
@@ -79,7 +79,7 @@ These columns don't have to line up - but if it helps you to visualise it then y
 
 To continue writing leave a gap at the end of the table as if starting a new paragraph.
 
-### Justified
+### Justification
 ":" are used at the sides of the bars at the top of the column you are formatting. A ":" on the left side of the bar will justify the column to the left. A ":" on the right side of the bar will justify the column to the right. A ":" on both sides will justify it to the center.
 
 ## Lists
