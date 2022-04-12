@@ -2,26 +2,6 @@ Markdown, although not exactly a programming language as such, has a lot of simi
 
 It's a basic form of text storage, with some additional formatting that can be used to help explain things.
 
-## Basic Symbols/Characters
-If you're this far - you likely know what all of these are,  but it's worthwhile going over them to ensure clarity.  
-| Character | Comment |
-| :---: | :---: |
-| $ | Dollar |
-| +- | Plus, Minus |
-| () | Parentheses |
-| {} | Curly braces |
-| <> | Less than, greater than |
-| = | Equal |
-| : | Colon |
-| ^ | Caret |
-| ' | Apostrophe |
-| / | Forward Slash |
-| ! | Exclamation point |
-| & | Ampersand |
-| ~ | Tilde |
-|   | Space Character |
-| # | Hash |
-
 ## Headings
 Headings are used as "Titles" for sections - as you run down into subsections you increase the "Heading level" by increasing the amount of hashes in front of the text. A single hash will give you heading 1. This would tend to be the title of the piece you are working on. A second hash would tend to be the title of the section of the piece. This can drill down further and further.
 

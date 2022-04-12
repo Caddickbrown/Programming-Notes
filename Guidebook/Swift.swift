@@ -4,8 +4,6 @@
 iOS Development
 Mac App Development*/
 
-//Basic Symbols/Characters
-
 //Comments
 //Single Line - Use "//"
 /*Multi-Line - Use "/*" to start. This is the start of a multi line comment

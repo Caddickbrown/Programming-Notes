@@ -8,23 +8,6 @@ It is used for:
   Graphics
   ATM Machines*/
 
-//Basic Symbols/Characters
-//If you're this far - you likely know what all of these are, but it's worthwhile going over them to ensure clarity
-/*
-() - Rounded Brackets
-{} - Curly Brackets
-[] - Square Brackets
-< - Less than
-: - Colon
-; - Semicolon
-"" - Quotation Marks
-+ - Plus
-- - Minus/Dash
-* - Asteriks
-/ - Forward Slash
-= - Equals
-*/
-
 //Considerations
 /*When starting to write code, you first need to use the following code*/
 #include <iostream> //The code will not compile without this line. In order to read or write to the standard input/output streams you need to include it.
@@ -241,7 +224,7 @@ int myArray[5]={5,6,7,8,9}; //This is a shortened form of the above, where the A
 For example*/
 int myArray[5]={1,2,3,4,5};
 for(int i=0;i<5;i++){
-  cout<<"Element's Value at the index "<<i<<" is: "<<myArray[i]<<endl; //If you've used concatenate in Excel - you may have noticed you're able to string things together in a similar fashion
+  cout<<"Element's Value at the index "<<i<<" is: "<<myArray[i]<<endl; //If you've used the CONCATENATE function in Excel - you may have noticed you're able to string things together in a similar fashion
 }
 /*Output
 Element's Value at the index 0 is: 1
