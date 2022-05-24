@@ -8,7 +8,6 @@ Any suggestions are always welcome - if you have any feel free to drop me a mess
 # General Points
 ## Basic Symbols/Characters
 If you're this far - you likely know what all of these are, but it's worthwhile going over them to ensure clarity
-|Symbol||
 
 | Character | Comment |
 | :---: | :---: |
@@ -33,6 +32,9 @@ If you're this far - you likely know what all of these are, but it's worthwhile 
 | ~ | Tilde |
 |   | Space Character |
 | # | Hash |
+
+## Variables
+A Variable is a method of storing data under a "Name".
 
 ## Types of Data Value
 | Name | Example | Explanation |
