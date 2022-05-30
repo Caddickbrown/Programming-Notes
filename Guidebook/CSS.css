@@ -4,3 +4,109 @@
 /*Comments*/
 /*Single Line and Multi-Line - Use "/*" to start and end in "* /" (with no space between). This is the start of a comment
 This is the end of the same comment.*/
+
+/*Selectors and Declarations*/
+/*CSS has two parts - Selectors and Declarations.
+Declarations are the instructions of what to do with/how to style that element. "What to do".
+Selectors simply select the HTML element to be styled. "Where to do it."
+*/
+p{font-size:24px;} /* "p" is the Selector and the rest forms the Declaration block.
+Declarations are Properties and values followed by a semicolon and enclosed within curly brackets.
+
+The above selects all the paragraph elements present in the webpage and changes the font size to 24px.*/
+p{color:red;} /*Changes the colour of all paragraph elements to Red.*/
+
+/*Adding CSS to HTML*/
+/*There are three ways to apply CSS to HTML Elements.
+	1. Write CSS within the HTML tags. (Inline CSS).
+	2. Write it inside your HTML file enclosed in <style></style> tags. (Internal CSS)
+	3. Write it in a separate file with a .css extension and include it in the HTML using the <link> tag. (External CSS)*/
+
+/*Inline CSS*/
+/*Writing CSS inside HTML tags using a <style> attribute is known as Inline CSS.*/
+<p style="font-size:24px;color:orange;"> /*This is how you write inline CSS, and will change the font size to 24px and colour to orange.*/
+
+/*Internal CSS*/
+/*Writing CSS enclosed in the <style> tag within the <head> tag in the HTML file is known as Internal CSS.*/
+<head>
+	<style>
+	p{
+		color:orange;
+		font-size:24px;
+	}
+	</style>
+</head>
+/*This snippet will change the font size to 24px and colour to orange.*/
+
+
+/*External CSS*/
+/*Storing CSS in a different file can help with managing files. Then that file is connected to the HTML using the <link> tag. This is known as External CSS.*/
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+/*The "rel" attribute specifies the relationship that the linked file has with the source file.
+The "type" attribute specifies the internet media type and the value "text/css" conveys that it is CSS.
+The "href" (hypertext reference) provides the path of the file which we want to link to.*/
+
+//style.css
+	p{
+		font-size:24px;
+		color:orange;
+	}
+/*Styles inside .css files are not enclosed within any tags. Writing CSS externally is recommended as it is easy to manage as well as being able to be used in multiple places easily.*/
+	
+/*If you include CSS in all the three ways having the same property and selector, then the Inline CSS will have the highest precedence and it will override all the other CSS.
+If you include internal CSS as well as external CSS then the precedence depends upon the order in which you specify them inside the <head> tag.*/
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"> /*External CSS*/
+	<style>/*Internal CSS*/
+	p{
+		color:red;
+		font-size:20px;
+	}
+	</style>
+</head>
+
+/*Here the Internal CSS will overwrite the External CSS and the text will change to red at size 20px. This is because code is run sequentially (top to bottom) so one below will override anything from above if the selector and property are the same.*/
+
+/*Selecting HTML Elements*/
+/*An HTML Element can be selected using:
+	1. Element Selector
+	2. Class Selector
+	3. ID Selector
+	4. Attribute Selector*/
+
+/*Element Selector*/
+<p>Here is some text inside a paragraph tag.</p>
+/*To select the above text all that needs to be selected is the "Paragraph" element or the "p" element.*/
+p{
+	/*Property value pairs*/
+}
+
+/*Class Selector*/
+<p class="select-me">Here is a paragraph tag which also has a class specified inside it.
+</p>
+/*If an HTML Element has class associated with it, then it can be referenced using class selector in CSS.
+Writing a class selector involves writing a dot followed by the class name.*/
+.select-me{
+	/*Property value pairs*/
+}
+
+/*The above snippet selects all elements containing the select-me class.*/
+
+/*ID Selector*/
+<p id="select-me">Here is a paragraph tag which also has an id specified inside it.
+</p>
+/*Similar to class, but ID is selected with a hash*/
+#select-me{
+	/*Property value pairs*/
+}
+
+/*Attribute Selector*/
+<input type="text"/>
+/*Given above is an input tag containing type attribute with value text. If an HTML element has an attribute associated with it, then it can be referenced using the Attribute Selector.*/
+input[type=text]{
+	/*Property value pairs*/
+}
+/*This is done by writing the element name followed by [attribute=value]. The above snippet selects all the input elements containing the "type" attribute with a value of "text".*/
