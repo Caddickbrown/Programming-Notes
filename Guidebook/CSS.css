@@ -48,13 +48,13 @@ p{color:red;} /*Changes the colour of all paragraph elements to Red.*/
 The "type" attribute specifies the internet media type and the value "text/css" conveys that it is CSS.
 The "href" (hypertext reference) provides the path of the file which we want to link to.*/
 
-//style.css
+/*style.css*/
 	p{
 		font-size:24px;
 		color:orange;
 	}
 /*Styles inside .css files are not enclosed within any tags. Writing CSS externally is recommended as it is easy to manage as well as being able to be used in multiple places easily.*/
-	
+
 /*If you include CSS in all the three ways having the same property and selector, then the Inline CSS will have the highest precedence and it will override all the other CSS.
 If you include internal CSS as well as external CSS then the precedence depends upon the order in which you specify them inside the <head> tag.*/
 
