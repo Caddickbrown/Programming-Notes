@@ -35,6 +35,7 @@ Exit For
 For
 Next
 Select
+Exit Sub
 Copy
 Paste
 Cut
@@ -44,16 +45,18 @@ Application
 Workbook
 Worksheet
 Worksheets
-String
-Boolean
-Integer
-Date
+Dim StringVariable As String
+Dim BooleanVariable As Boolean
+Dim IntegerVariable As Integer
+Dim DateVariable As Date
 
 Format
-MsgBox
+MsgBox("Query?",vbYesNo)
 
-
-
+Calculation
+ScreenUpdating
+DisplayStatusBar
+EnableEvents
 
 '--------------------------------------------------------------------------------------------------------------------------------
 
