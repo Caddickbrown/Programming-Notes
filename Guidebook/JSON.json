@@ -1,0 +1,41 @@
+"_comment": "JSON (JavaScript Object Notation) is a data representation format. Commonly used for APIs and Config files. It's lightweight and easy to read and write, and integrates well with JavaScript as is just a ''superset'' of JavaScript. It integrates easily with most languages."
+
+JSON files don't support comments. All the content in the JSON file is data. If, however, you still want to add a comment to a JSON file, You can use the data part as the comment. Which can be ignored during the processing of JSON file.
+
+Types:
+
+Strings: "Hello World!" "Fred"
+Numbers 10  1.5 -30 1.2e10
+Booleans true false
+null null
+Arrays [1, 2, 3] ["Hello", "World"]
+Objects {"key": "value"} {"age": 30}
+
+First thing need to do - create .json file.
+Insider take one of types and put into file. Usually have Arrays within the file.
+
+user.jason
+[
+    {   
+        "key":"value",(Need a comma between each key and value.)
+        "username": "Fred",
+        "favouriteColour": "blue",
+        "isProgrammer": true,
+        "hobbies": ["Reading", "Watching Movies", "Gaming"],
+        "friends": [{ (details can be nested to show a heirachy of data)
+            "username": "Joey",
+            "favouriteColour": "red",
+            "isProgrammer": false,
+            "hobbies": ["Bowling", "Watching Movies", "Frisbee"],
+            "friends": "..." (there is no need for a comma at the end of the final key value pair)
+        }]
+    }, (Don't forget the comma at the end of an object as well)
+    {
+        "key":"value",
+        "username": "Mary",
+        "favouriteColour": "Green",
+        "isProgrammer": true,
+        "hobbies": ["Gardening", "Rugby"],
+        "friends": [{}]   
+    }
+]
