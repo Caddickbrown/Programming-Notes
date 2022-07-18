@@ -62,10 +62,8 @@ x != y //True
 //"And"
 var mp = 5;
 var gb = 16;
-//Need to check if both of these conditions are true.
-mp > 5= and gb >= 16
-//"&&" can be used to check where two or more of these values are true.
-mp >= 5 && gb >= 16
+//Need to check if both of these conditions are true. "&&" can be used to check where two or more of these values are true. Basically "&&" means "and"
+mp >= 5 && gb >= 16 
 
 //Or
 // "||" is used for "or" - to use when at least one condition is true in order to proceed.
