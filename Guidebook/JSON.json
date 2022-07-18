@@ -22,14 +22,14 @@ user.jason
         "favouriteColour": "blue",
         "isProgrammer": true,
         "hobbies": ["Reading", "Watching Movies", "Gaming"],
-        "friends": [{ (details can be nested to show a heirachy of data)
+        "friends": [{ (Details can be nested to show a heirachy of data.)
             "username": "Joey",
             "favouriteColour": "red",
             "isProgrammer": false,
             "hobbies": ["Bowling", "Watching Movies", "Frisbee"],
-            "friends": "..." (there is no need for a comma at the end of the final key value pair)
+            "friends": "..." (There is no need for a comma at the end of the final key value pair.)
         }]
-    }, (Don't forget the comma at the end of an object as well)
+    }, (Don't forget the comma at the end of an object as well.)
     {
         "key":"value",
         "username": "Mary",
