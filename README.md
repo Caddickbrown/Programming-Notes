@@ -18,7 +18,7 @@ If you're this far - you likely know what all of these are, but it's worthwhile 
 | () | Parentheses/Rounded Brackets |
 | {} | Curly Brackets |
 | [] | Square Brackets |
-| <> | Less Than |
+| < | Less Than |
 | > | Greater Than |
 | = | Equals |
 | : | Colon |
@@ -32,6 +32,8 @@ If you're this far - you likely know what all of these are, but it's worthwhile 
 | ~ | Tilde |
 |   | Space Character |
 | # | Hash |
+| % | Percentage |
+
 
 ## Variables
 A Variable is a method of storing data under a "Name".
