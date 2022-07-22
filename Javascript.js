@@ -69,6 +69,71 @@ mp >= 5 && gb >= 16
 // "||" is used for "or" - to use when at least one condition is true in order to proceed.
 mp >= 5 || gb >= 16
 
+//Making Decisions
+if(condition){
+    //Task if Condition is true
+}else{
+    //Task if condition is false
+}
+
+var x = 2;
+var y = 9;
+if(x>y){
+    document.write("x is greater than y")
+}else{
+    document.write("x is not greater than y")
+}
+
+//Arrays
+//Arrays can store multiple values in a single variable.
+var array_colours = ["red","blue","green","yellow"];
+//You can only store variables of the same type - so you can't have an array of strings and numbers. You'll need two separate array's. One for the Strings and one for the numbers.
+//To access an array you need to use the Array Index (which starts at 0). As above "2" would return "green". To access the value of the array you need to writ ethe following.
+array_colours[2]
+// You can print "green" as below.
+document.write(array_colours[2]);
+
 //Loops
+var myLoop = "I only want to type this once"; //define your first variable
+//For Loop
+var i; //create the variable
+for (int i=0; i<10; i++){ //for loop
+document.write(myLoop); //task to do
+}
+//Do While Loop
+var i = 1;
+do {
+    document.write(myLoop);
+    i= i + 1;
+}while(i<=10); // Remember to  put the semi-colon after while
 
+//Dialog Boxes
+/*Used for showcasing important messages. There are three types of dialog boxes in JavaScript: Confirmation Messages, Pop Up an Error, or Show Warning Messages.
+You can also get inputs from said dialog boxes.*/
 
+//Alert Box
+// Used to display messages, or worning messages. It only has one "OK" to select and proceed.
+alert("This is an Alert Box");
+
+//Prompt Dialog Box
+// This is used when the user needs to input something. It consists of two buttons, "OK" and "Cancel", and a text box to input values.
+prompt("What's your name?");
+
+//Confirm Dialog Box
+/* This provides confirmation for a specific action, for example "Do you realy want to delete this picture?" - we can either accept and hit "Ok", or decline and say "Cancel".
+Hitting "Ok", returns "true" otherwise it returns "false"*/
+confirm("Hit Ok if you're an idiot.");
+
+//Functions
+//These are reusable lines of code that can be called upon to complete tasks. This eliminates the need to re-write the code again.
+function print(){ //define the function name
+    document.write("I can print this quickly like this.");
+}
+//This function can then be called as below.
+print();
+//Another example is adding two numbers together. Putting different values in the function to have it spit out a different result can be done with Parameters.
+function add(num1,num2){
+    var result=num1+num2;
+    document.write(result);
+}
+add(3,4); //In this scenario we're passing 3 and 4 as parameters to the function. num1 becomes 3, num2 becomes 4. then the result variable dtores the result and prints it out.
