@@ -61,3 +61,17 @@ Create Database Employee --This creates the database "Employee".
 Use Employee --This will change the default Database to Employee.
 
 Create Table EmployeeInfo -- This creates the "EmployeeInfo" Table.
+
+--Example
+SELECT --These are the different columns you want to pull from your initial table.
+ORDER_NO, --Don't forget your commas at the end of each column
+PART_NO,
+REVISED_START_DATE,
+REVISED_QTY_DUE,
+PRIORITY_CATEGORY,
+ROWSTATE,
+CONTRACT --The last table doesn't need a comma
+FROM IFS.SHOP_ORD_TAB as SOT --This is the table you want to pull those columns from (The as SOT is just a shortening)
+WHERE SOT.CONTRACT = '2051' and SOT.ROWSTATE = 'Released' and SOT.PART_NO LIKE 'MMK%' --This filter the Relevant columns
+
+
