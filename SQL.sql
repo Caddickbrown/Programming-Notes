@@ -70,7 +70,7 @@ REVISED_START_DATE,
 REVISED_QTY_DUE,
 PRIORITY_CATEGORY,
 ROWSTATE,
-CONTRACT --The last table doesn't need a comma
+CONTRACT --The last column doesn't need a comma
 FROM IFS.SHOP_ORD_TAB as SOT --This is the table you want to pull those columns from (The as SOT is just a shortening)
 WHERE SOT.CONTRACT = '2051' and SOT.ROWSTATE = 'Released' and SOT.PART_NO LIKE 'MMK%' --This filter the Relevant columns
 
