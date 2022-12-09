@@ -1,3 +1,13 @@
+# NOTE
+This guide is likely to be depreciated as I have found a preferable way to type up course notes. I may leave it open, but probably won't do a lot with it anymore.
+
+
+
+
+
+
+
+
 # Programming-Notes
 These are my notes on Programming Languages as I learn them and pick them up.
 
