@@ -97,9 +97,9 @@ document.write(array_colours[2]);
 var myLoop = "I only want to type this once"; //define your first variable
 //For Loop
 var i; //create the variable
-for (int i=0; i<10; i++){ //for loop
+/*for (int i=0; i<10; i++){ //for loop
 document.write(myLoop); //task to do
-}
+}*/
 //Do While Loop
 var i = 1;
 do {
