@@ -6,6 +6,8 @@ These are some general notes and useful information about programming or other r
 #### Creating a Repository
 
 #### Merging Two Existing Repositories
+Merging GitHub Repos whilst maintaining histories is a bit of a pain. The following steps should help you to do this.
+
 1. Create/Locate the Repo that you want to Merge into.
 2. cd into the Repo
 3. git remote add -f <name> <url>
